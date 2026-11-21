@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bunyodbek Hatamqulov — Yosh Dasturchi Portfolio</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Fon nur va to‘r effektlari -->
+  <div class="bg-grid"></div>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- Yuqori menyu -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-box">&lt;/&gt;</span>
+        <span>BUNYODBEK.DEV</span>
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <a href="#haqimda">Men haqimda</a>
+        <a href="#konikmalar">Ko‘nikmalar</a>
+        <a href="#solishtirish">C++ vs Py vs React</a>
+        <a href="#loyihalar">Loyihalar</a>
+        <a href="#savollar">Savollar</a>
+        <a href="#aloqa">Aloqa</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="status-pill"><i class="dot"></i> 24-maktab • 12 yosh</span>
+        <a href="#aloqa" class="btn-sm">Bog‘lanish</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menyu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Asosiy kirish qismi (Hero) -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <div class="kicker">⚡ 24-maktab O‘quvchisi • 12 Yosh (2014) • Yosh Dasturchi</div>
+        <h1>
+          SALOM, MEN <span class="grad-text">BUNYODBEK HATAMQULOV</span>.<br />
+          <span id="typewriter" class="type-text"></span><span class="cursor">|</span>
+        </h1>
+        <p class="hero-desc">
+          Men 2014-yilda tug‘ilganman, 12 yoshdaman va 24-maktabda o‘qiyman. C++ tezligi,
+          Python qulayligi va React chiroyli interfeysi yordamida foydali dasturlar,
+          botlar va zamonaviy veb-saytlar yaratishni o‘rganyapman hamda loyihalar qilyapman.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#loyihalar" class="btn btn-glow">Loyihalarimni ko‘rish →</a>
+          <a href="#tanlov" class="btn btn-glass">Texnologiya tanlash</a>
+          <button id="copyAllStack" class="btn btn-glass">📋 Ma’lumotni nusxalash</button>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat-box">
+            <strong class="stat-num" data-target="12">0</strong>
+            <p>Yoshim (2014-yil)</p>
+          </div>
+          <div class="stat-box">
+            <strong class="stat-num" data-target="24">0</strong>
+            <p>Maktab raqami</p>
+          </div>
+          <div class="stat-box">
+            <strong class="stat-num" data-target="3">0</strong>
+            <p>C++ • Python • React</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zamonaviy Kod Terminal Kartochkasi -->
+      <div class="hero-card glass">
+        <div class="card-topbar">
+          <span class="c-dot red"></span>
+          <span class="c-dot yellow"></span>
+          <span class="c-dot green"></span>
+          <span class="file-label">bunyodbek.profile.js</span>
+        </div>
+        <pre class="code-preview"><code><span class="kw">const</span> <span class="fn">studentDeveloper</span> = {
+  fullName: <span class="str">"Bunyodbek Hatamqulov"</span>,
+  birthYear: <span class="bool">2014</span>,
+  age: <span class="bool">12</span>,
+  school: <span class="str">"24-maktab"</span>,
+  interests: [<span class="str">"C++"</span>, <span class="str">"Python"</span>, <span class="str">"React"</span>],
+  goal: <span class="str">"Foydali dastur va saytlar yaratish"</span>
+};</code></pre>
+        <div class="mini-tags">
+          <span>Bunyodbek Hatamqulov</span>
+          <span>24-maktab</span>
+          <span>12 yosh</span>
+          <span>C++ / Python / React</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Men haqimda va Xronologiya -->
+  <section id="haqimda" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Qisqacha tanishuv</span>
+        <h2>👨‍💻 Men Haqimda — Bunyodbek Hatamqulov</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass about-card">
+          <h3>Kimman va nimaga intilaman?</h3>
+          <p>
+            Ism-familiyam <strong>Bunyodbek Hatamqulov</strong>. 2014-yilda tug‘ilganman,
+            hozir 12 yoshdaman va 24-maktab o‘quvchisiman. Darslardan bo‘sh vaqtlarimda
+            dasturlashni o‘rganish, kod yozish va yangi loyihalar sinab ko‘rish menga
+            juda yoqadi.
+          </p>
+          <ul class="check-list">
+            <li>✔ Ism-familiya: Bunyodbek Hatamqulov</li>
+            <li>✔ Tug‘ilgan yil: 2014-yil (12 yosh)</li>
+            <li>✔ O‘qish joyi: 24-maktab</li>
+            <li>✔ Yo‘nalishlar: C++, Python va React</li>
+          </ul>
+        </div>
+
+        <div class="glass timeline-card">
+          <h3>Rivojlanish yo‘lim</h3>
+          <div class="timeline">
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div>
+                <strong>24-maktab o‘quvchisi • Bilim va intizom</strong>
+                <p>Maktabdagi fanlarni o‘zlashtirish bilan birga zamonaviy texnologiyalarni o‘rganyapman.</p>
+              </div>
+            </div>
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div>
+                <strong>React va Veb-interfeyslar</strong>
+                <p>Chiroyli saytlar, tugmalar, filtrlar va qulay sahifalar yasashni mashq qilyapman.</p>
+              </div>
+            </div>
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div>
+                <strong>Python va C++</strong>
+                <p>Botlar, mantiqiy dasturlar va tezkor algoritmlarni o‘rganib, amalda sinayapman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ko‘nikmalar -->
+  <section id="konikmalar" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Texnik arsenal</span>
+        <h2>🛠 Mening Ko‘nikmalarim</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="glass skill-card">
+          <div class="skill-top">
+            <h3>C++ — Algoritm va Tezlik</h3>
+            <span>75%</span>
+          </div>
+          <p>O‘zgaruvchilar, shartlar, sikllar, massivlar va tezkor hisoblash asoslari.</p>
+          <div class="bar"><div class="bar-fill" style="--w: 75%"></div></div>
+        </div>
+
+        <div class="glass skill-card">
+          <div class="skill-top">
+            <h3>Python — Bot va Skriptlar</h3>
+            <span>82%</span>
+          </div>
+          <p>Funksiyalar, ro‘yxatlar, ma’lumotlarni qayta ishlash va bot/avtomatlashtirish g‘oyalari.</p>
+          <div class="bar"><div class="bar-fill" style="--w: 82%"></div></div>
+        </div>
+
+        <div class="glass skill-card">
+          <div class="skill-top">
+            <h3>React — Veb Interfeys</h3>
+            <span>80%</span>
+          </div>
+          <p>Komponentlar, tugmalar, qidiruv/filtr va zamonaviy sayt dizayni yaratish.</p>
+          <div class="bar"><div class="bar-fill" style="--w: 80%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C++ vs Python vs React + Interaktiv tanlov -->
+  <section id="solishtirish" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Texnologiyalar tahlili</span>
+        <h2>⚖️ C++, Python va React — Oddiy Solishtirish</h2>
+      </div>
+
+      <div class="glass table-card">
+        <table>
+          <thead>
+            <tr>
+              <th>Mezon</th>
+              <th>C++</th>
+              <th>Python</th>
+              <th>React</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-title">Asosiy vazifa</td>
+              <td>O‘yinlar, tezkor dasturlar, hisob-kitob</td>
+              <td>Botlar, server, avtomatlashtirish</td>
+              <td>Sayt ko‘rinishi, menyu, tugmalar</td>
+            </tr>
+            <tr>
+              <td class="td-title">Tezligi</td>
+              <td class="highlight">Eng tez ishlaydigan til</td>
+              <td>Qulay va tez yoziladi</td>
+              <td>Ekran yangilanishi juda tez</td>
+            </tr>
+            <tr>
+              <td class="td-title">O‘rganish</td>
+              <td>Biroz chuqur bilim talab qiladi</td>
+              <td class="highlight">Eng oson va tushunarli</td>
+              <td>JavaScript bilan juda qulay</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Interaktiv yordamchi -->
+      <div id="tanlov" class="glass advisor-box">
+        <div class="advisor-left">
+          <span class="sec-tag">Interaktiv tanlov</span>
+          <h3>Qaysi texnologiya qanday loyihaga mos?</h3>
+          <p>Birini bosing — qisqa tushuntirib beraman:</p>
+          <div class="advisor-btns">
+            <button class="adv-btn active" data-goal="web">🌐 Veb-sayt va interfeys</button>
+            <button class="adv-btn" data-goal="bot">🤖 Bot va avtomatlashtirish</button>
+            <button class="adv-btn" data-goal="game">🎮 Tezkor o‘yin va hisob</button>
+            <button class="adv-btn" data-goal="full">🚀 To‘liq loyiha</button>
+          </div>
+        </div>
+        <div class="advisor-result" id="advisorResult"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Loyihalar -->
+  <section id="loyihalar" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Mashq va amaliyot</span>
+        <h2>🚀 Mening Loyihalarim</h2>
+      </div>
+
+      <div class="toolbar">
+        <div class="filters" id="filterButtons">
+          <button class="filter-btn active" data-til="Barchasi">Barchasi (6)</button>
+          <button class="filter-btn" data-til="C++">C++</button>
+          <button class="filter-btn" data-til="Python">Python</button>
+          <button class="filter-btn" data-til="React">React</button>
+        </div>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Loyiha qidirish..."
+        />
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Savollar -->
+  <section id="savollar" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Qisqa ma’lumot</span>
+        <h2>❓ Savol-Javoblar</h2>
+      </div>
+      <div class="faq-list" id="faqList">
+        <div class="glass faq-item open">
+          <button class="faq-q">Ism-familiyangiz va yoshingiz necha? <span>+</span></button>
+          <div class="faq-a">Men Bunyodbek Hatamqulov, 2014-yilda tug‘ilganman, hozir 12 yoshdaman.</div>
+        </div>
+        <div class="glass faq-item">
+          <button class="faq-q">Qaysi maktabda o‘qiysiz? <span>+</span></button>
+          <div class="faq-a">Men 24-maktab o‘quvchisiman.</div>
+        </div>
+        <div class="glass faq-item">
+          <button class="faq-q">Qaysi tillar va vositalarni o‘rganyapsiz? <span>+</span></button>
+          <div class="faq-a">Asosan C++, Python va React yo‘nalishlarida mashq qilib, loyihalar yasayapman.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kod ko‘rish oynasi -->
+  <div class="modal" id="codeModal">
+    <div class="modal-box glass">
+      <div class="modal-head">
+        <div>
+          <span id="modalBadge" class="mini-badge">C++</span>
+          <h3 id="modalTitle">Loyiha nomi</h3>
+        </div>
+        <button id="closeModal" class="close-btn">✕</button>
+      </div>
+      <p id="modalDesc" class="modal-desc"></p>
+
+      <div class="code-toolbar">
+        <span>Kod namunasi</span>
+        <div class="modal-actions">
+          <button id="runCodeBtn" class="run-code-btn">▶ Natijani ko‘rish</button>
+          <button id="copyCodeBtn" class="copy-code-btn">📋 Nusxalash</button>
+        </div>
+      </div>
+
+      <pre><code id="modalCode"></code></pre>
+
+      <div class="output-box" id="outputBox">
+        <div class="out-label">Natija:</div>
+        <pre id="modalOutput"></pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aloqa bo‘limi -->
+  <footer id="aloqa" class="footer">
+    <div class="container footer-box glass">
+      <div class="footer-top">
+        <div>
+          <span class="sec-tag">Portfolio</span>
+          <h3>Bunyodbek Hatamqulov • 24-maktab</h3>
+          <p>2014-yil • 12 yosh • C++, Python va React bo‘yicha shaxsiy portfolio sahifasi.</p>
+        </div>
+        <div class="quick-links">
+          <button id="copyTelegram" class="btn btn-glass">Telegram: @username</button>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="senderName" placeholder="Ismingiz" required />
+        <input type="text" id="senderContact" placeholder="Aloqa (Telegram yoki telefon)" required />
+        <input type="text" id="senderMsg" placeholder="Xabaringiz" required />
+        <button type="submit" class="btn btn-glow">Yuborish →</button>
+      </form>
+
+      <div class="footer-bottom">
+        <span>© 2026 Bunyodbek Hatamqulov • 24-maktab</span>
+        <span>12 yosh (2014)</span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top" title="Tepaga">↑</button>
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
